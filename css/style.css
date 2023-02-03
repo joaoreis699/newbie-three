@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+    font-size: 15px;
+}
+
+.container, .thankYou {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1.5rem;
+    padding: 25px;
+    margin: 10px;
+}
+
+.container {
+    width: 350px;
+    height: 335px;
+}
+
+.container img {
+    background-color: hsl(240, 5%, 22%, 0.264);
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.container h2 {
+    color: #fff;
+    margin-bottom:15px;
+}
+
+.container p {
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 25px;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.container ul li button {
+    width: 3rem;
+    height: 3rem;
+    background-color: hsl(240, 5%, 22%, 0.264);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+    font-weight: 700;
+    border: none;
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 1.2rem;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 1rem;
+}
+
+.btn-submit:hover {
+        background-color: #fff;
+        color: hsl(25, 97%, 53%);
+}
+
+/* ThankYou start here */
+
+.thankYou {
+    width: 350px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankYou img {
+    display: block;
+    margin: 0 auto 1.8rem;
+}
+
+.thankYou .choice {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(210, 14%, 20%);
+    border-radius: 1rem;
+    padding: 7px 10px 5px 10px;
+    margin-bottom: 1.2rem;
+    font-size: 13;
+    display: inline-block;
+    text-align: center;
+}
+
+.thankYou h2 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.thankYou .tankYou-description {
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
